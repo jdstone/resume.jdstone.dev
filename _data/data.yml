@@ -1,0 +1,173 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: JD (Jonathan) Stone
+    tagline: DevOps/Site Reliability | Systems Integration | Application Support | Systems Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    timezone: America/Pacific Timezone
+    citizenship: US Citizen
+    website: jdstone.dev #do not add http://
+    linkedin: jdstone1
+    github: jdstone
+    stack-overflow: 4820940/jdstone # Number/Username, e.g. 123456/alandoe
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+
+    interests:
+      title: Interests
+      info:
+        - item: Kayaking
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: DIY projects
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Insightful, challenge-driven, and well-organized IT Engineer with
+      expertise in numerous technological arenas. Proficient in
+      collaborating with internal development teams as well as client
+      technology leaders to facilitate accurate and timely communications
+      and attainment of business goals. Talent for leading projects,
+      automating routine tasks, and streamlining processes. Proven ability
+      to engage with clients/internal teams to conduct troubleshooting and
+      issue triage to optimize resolutions and customer satisfaction.
+education:
+    title: Education
+    info:
+      - degree: B.S. in Computer Information Systems/Minor in Computer Science & Business Administration
+        university: California State University, Chico
+        time: 2015
+        # details: |
+        #   Describe your study here.
+        #     - Bullet point
+
+experiences:
+    title: Experiences
+    info:
+      - role: Career development/non-professional experience
+        time: 12/2023 - Present
+        # company: company name, city name, state
+        details: |
+            - Currently working through the material/information for multiple AWS certifications
+            - Various software development and home projects
+              - Kubernetes home lab
+              - Developing/maintaining Helm charts and Docker containers
+              - Bash and other language scripts for automation at work and on my home Linux server
+      - role: DevOps/Senior Application Support Engineer
+        time: 8/2022 - 12/2023
+        company: OPTX Solutions, Las Vegas, NV
+        details: |
+            - Utilized Azure Kubernetes Service (Linux) with Kubernetes Secrets Store CSI driver and
+            Key Vault, and Managed Identities to implement Prometheus and Grafana to monitor the
+            stability of the company's application/cloud infrastructure by developing dashboard;
+            increased efficiency by eliminating 100% of time spent (4.5 hours daily saved) to
+            manually monitor metrics; allowed members of application support team to focus on
+            customer issues/tasks that cannot be automated
+            - Improved employee workflow of customer submitted support tickets by implementing unutilized
+            features within Zendesk; used Microsoft Power Automate to automate and streamline numerous
+            other tasks, some within Azure DevOps
+            - Developed PowerShell shell scripts to handle repetitive tasks, such as running SQL queries
+            to validate or update customer data in the database, eliminating time spent by 75%
+            - Decreased the time, by 5%, needed to onboard new team members & customers by maintaining
+            technical and customer onboarding documentation
+            - Led staff meetings to triage and troubleshoot customer submitted software issues and
+            communicate the issue details to/from the development and other teams
+      - role: Planned Career Break
+        time: 11/2021 - 8/2022
+        company: Professional Development/External Pursuits
+      - role: DevOps Engineer
+        time: 2/2020 - 11/2021
+        company: Indiegogo, San Francisco, CA
+        details: |
+            - Supported and managed cloud infrastructure, software development tooling, Bash and
+            Python scripts, and monitoring, logging, and alerting stack of various Linux VMs and
+            Kubernetes clusters in development and production environments, running on GCP and AWS
+            - Ensured stable software automation and deployment through the use of Chef, Kubernetes,
+            Terraform, MySQL, Redis, Helm, Bash shell scripts, Ruby, Git/GitHub, and CircleCI
+            - Converted commercial wildcard TLS certificate to Let's Encrypt certs by implementing
+            cert-manager using Helm charts, with an Nginx Ingress LB
+            - Decreased time necessary to upgrade Chef by 20%, by writing a Bash script to automate
+            and validate Chef client across all servers in all environments
+            - Led projects to ensure compatibility with software during cloud and application
+            software (Ruby) upgrades
+            - Established best practices for technical documentation and kept it up to date
+            - Participated in an on-call rotation using tools such as PagerDuty
+      - role: DevOps Engineer
+        time: 10/2018 - 2/2020
+        company: LoanSnap, San Francisco, CA
+        details: |
+            - Managed and maintained code deployment into development, staging, and production
+            environments using a fully automated code release flow of the first smart loan
+            technology service using artificial intelligence (AI) and machine learning
+            - Increased security by implementing/managing cert-manager and HashiCorp Vault
+            to enhance security, administration, and deployment of passwords, secrets,
+            private keys, and TLS certificates
+            - Improved quick automated releases of the product using a deployment workflow of
+            Git/GitHub, Google Cloud Build, Spinnaker, Kubernetes (Linux), Terraform, and
+            TravisCI on GCP with Google Container Registry, Cloud SQL (MySQL), and Load Balancing
+            - Contributed to the creation of the GCP Monitoring/Logging (aka Stackdriver), and
+            Datadog observation stack
+            - Led and directed such projects as HashiCorp Vault hardening (root and unseal token
+            rotation, auto-unseal using Google Cloud KMS) and GCP Kubernetes cluster
+            administration, creation, and rebuilding
+      - role: Systems Integration Engineer
+        time: 8/2015 - 10/2018
+        company: Finastra, San Francisco, CA
+        details: |
+            - Utilized VBScript, Visual Basic, C#, and Batch scripting to build over 15 applications
+            to boost productivity by 15% and assist the team in implementing software products for
+            customers
+            - Decreased implementation time by 10% through streamlining processes for implementation
+            of customer software by creating, improving, and sustaining internal tools, as well as
+            documentation
+            - Installed and configured company wire transaction software products for global financial
+            services clients and supported customers directly throughout testing and production launch
+            phases
+            - Nominated, as sole member of six-member implementation team, by Director of US Payments,
+            for corporate Diamond Forum in 2018
+
+projects:
+    title: Projects
+    intro: >
+      List of projects coming soon...
+    # assignments:
+    #   - title: My Project
+    #     link: "#hook"
+    #     tagline: "My projects does this."
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+skills:
+   title: Skills &amp; Proficiency
+
+   toolset:
+     - name: List of skills coming soon...
+       level: 0%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
