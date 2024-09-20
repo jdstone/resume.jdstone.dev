@@ -62,12 +62,13 @@ experiences:
       - role: Career development/non-professional experience
         time: 12/2023 - Present
         details: |
-            - Currently working through the material/information for multiple AWS certifications
+            - Currently working through the material/information for multiple **AWS** certifications
             - Various software development and home projects
-              - Kubernetes home lab
-              - Developing/maintaining Helm charts and Docker containers
-              - Bash and other language scripts for automation at work and on my home Linux server
-      - role: DevOps/Senior Application Support Engineer
+              - **Kubernetes** home lab
+              - Developing/maintaining **Helm** charts and **Docker** containers
+              - **Bash** and other language **scripts** for automation at work and on my home **Linux** server
+              - Home **Linux** server
+      - role: Senior Application Support Engineer
         time: 8/2022 - 12/2023
         company: OPTX Solutions, Las Vegas, NV
         details: |
@@ -80,32 +81,38 @@ experiences:
             - Improved employee workflow of customer submitted support tickets by implementing unutilized
             features within **Zendesk**; used **Microsoft Power Automate** to automate and streamline numerous
             other tasks, some within **Azure DevOps**
-            - Developed **PowerShell** shell scripts to handle repetitive tasks, such as running **SQL/T-SQL** (**MSSQL**) queries
-            to validate or update customer data in the database, eliminating time spent by 75%
+            - Developed **PowerShell** shell scripts to handle repetitive tasks, such as running **SQL/T-SQL**
+            (**Azure SQL Database/MSSQL**) queries to validate or update customer data in the database
             - Decreased the time, by 5%, needed to onboard new team members & customers by maintaining
             technical and customer onboarding documentation
-            - Led staff meetings to triage and troubleshoot customer submitted software issues and
-            communicate the issue details to/from the development and other teams
+            - Triaged and troubleshot customer submitted software, **Tableau** report issues, and communicated the issue
+            details to/from the development and other teams; utilized **SSIS** to run **SQL** queries; led staff meetings
+            to discuss customer submitted issues
       - role: Planned Career Break
         time: 11/2021 - 8/2022
         company: Professional Development/External Pursuits
       - role: DevOps Engineer
-        time: 2/2020 - 11/2021
+        time: 4/2021 - 11/2021
         company: Indiegogo, San Francisco, CA
         details: |
-            - Supported and managed cloud infrastructure, software development tooling, **Bash** and
-            **Python** scripts, and monitoring, logging, and alerting stack of various **Linux VMs** and
-            **Kubernetes** clusters in development and production environments, running on **GCP** and **AWS**
+            - Supported and managed cloud infrastructure, software development tooling, **Bash** scripts, and
+            monitoring, logging, and alerting stack of various **Linux VMs** and **Kubernetes** clusters in
+            development and production environments, running on **GCP** and **AWS**
             - Ensured stable software automation and deployment through the use of **Chef**, **Kubernetes**,
             **Terraform**, **MySQL**, **Redis**, **Helm**, **Bash shell scripts, **Ruby**, **Git/GitHub**, and **CircleCI**
             - Converted commercial wildcard **TLS certificate** to Let's Encrypt certs by implementing
             **cert-manager** using **Helm** charts, with an **Nginx Ingress LB**
             - Decreased time necessary to upgrade **Chef** by 20%, by writing a **Bash** script to automate
             and validate Chef client across all servers in all environments
-            - Led projects to ensure compatibility with software during cloud and application
+            - Led projects to ensure compatibility with software during cloud and web application
             software (**Ruby**) upgrades
             - Established best practices for technical documentation and kept it up to date
             - Participated in an on-call rotation using tools such as **PagerDuty**
+      - role: Family Illness
+        time: 9/2020 - 4/2021
+      - role: DevOps Engineer (see above)
+        time: 2/2020 - 9/2020
+        company: Indiegogo, San Francisco, CA
       - role: DevOps Engineer
         time: 10/2018 - 2/2020
         company: LoanSnap, San Francisco, CA
@@ -122,7 +129,7 @@ experiences:
             - Contributed to the creation of the **GCP Monitoring/Logging** (aka **Stackdriver**), and
             **Datadog** observation stack
             - Led and directed such projects as **HashiCorp Vault** hardening (root and unseal token
-            rotation, auto-unseal using **Google Cloud KMS** and **GCP Kubernetes** cluster
+            rotation, auto-unseal using **Google Cloud KMS**) and **GCP Kubernetes** cluster
             administration, creation, and rebuilding
       - role: Systems Integration Engineer
         time: 8/2015 - 10/2018
@@ -135,8 +142,7 @@ experiences:
             of customer software by creating, improving, and sustaining internal tools, as well as
             documentation
             - Installed and configured company wire transaction software products for global financial
-            services clients and supported customers directly throughout testing and production launch
-            phases
+            services clients and **supported customers** directly **throughout** testing and production **launch phases** via group conference calls
             - Nominated, as sole member of six-member implementation team, by Director of US Payments,
             for corporate Diamond Forum in 2018
 
