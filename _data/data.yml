@@ -78,6 +78,9 @@ experiences:
             increased efficiency by eliminating 100% of time spent (4.5 hours daily saved) to
             manually monitor metrics; allowed members of application support team to focus on
             customer issues/tasks that cannot be automated
+            - Triaged and troubleshot customer submitted SaaS issues and **Tableau** report issues, and communicated the issue
+            details to/from the development and other teams; utilized **SSIS** to run **SQL** queries; led staff meetings
+            to discuss customer submitted issues
             - Improved employee workflow of customer submitted support tickets by implementing unutilized
             features within **Zendesk**; used **Microsoft Power Automate** to automate and streamline numerous
             other tasks, some within **Azure DevOps**
@@ -85,14 +88,11 @@ experiences:
             (**Azure SQL Database/MSSQL**) queries to validate or update customer data in the database
             - Decreased the time, by 5%, needed to onboard new team members & customers by maintaining
             technical and customer onboarding documentation
-            - Triaged and troubleshot customer submitted software, **Tableau** report issues, and communicated the issue
-            details to/from the development and other teams; utilized **SSIS** to run **SQL** queries; led staff meetings
-            to discuss customer submitted issues
       - role: Planned Career Break
         time: 11/2021 - 8/2022
         company: Professional Development/External Pursuits
       - role: DevOps Engineer
-        time: 4/2021 - 11/2021
+        time: 2/2020 - 11/2021
         company: Indiegogo, San Francisco, CA
         details: |
             - Supported and managed cloud infrastructure, software development tooling, **Bash** scripts, and
@@ -108,11 +108,6 @@ experiences:
             software (**Ruby**) upgrades
             - Established best practices for technical documentation and kept it up to date
             - Participated in an on-call rotation using tools such as **PagerDuty**
-      - role: Family Illness
-        time: 9/2020 - 4/2021
-      - role: DevOps Engineer (see above)
-        time: 2/2020 - 9/2020
-        company: Indiegogo, San Francisco, CA
       - role: DevOps Engineer
         time: 10/2018 - 2/2020
         company: LoanSnap, San Francisco, CA
